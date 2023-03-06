@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    background: #f8f9fa;
+    height: 50px;
+    border-bottom: 5px solid #27AE60;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #27ae60;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.logo::first-letter {
+    color: #000;
+}
+
+.stats {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Arial;
+
+}
+
+.footer {
+    background: #3d3d3d;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fa-heart {
+    color: #ff0000;
+}
+
+.fa-heart:hover {
+    color: #bd0000;
+}
+
+#content {
+    background: #fff;
+    height: 100%;
+}
+
+.item {
+    position: relative;
+    background: #dedede;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: 5px 5px 4px gray;
+}
+
+.item:hover {
+    background: #c7c7c7;
+}
+
+
+.item__color {
+    position: absolute;
+    bottom: 15px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.item__text {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+
+.black {
+    background: black;
+}
+
+.blue {
+    background: blue;
+}
+
+.orange {
+    background: orange;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.green {
+    background: green;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.item__text {
+    font-size: 15px;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+}
+
+.user {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    background: #dedede;
+    margin-bottom: 10px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.user:hover {
+    background: #c7c7c7;
+}
+
+.user__cources {
+    display: flex;
+}
+
+
+
+
+
+.user__color {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+
+
+
